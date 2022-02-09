@@ -37,37 +37,46 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/redText"
-            android:text="Red"/>
-
-        <SeekBar
-            android:id="@+id/greenSeekBar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/greenText"
-            android:text="Green"/>
-
-        <SeekBar
-            android:id="@+id/blueSeekBar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/blueText"
-            android:text="Blue"/>
+            android:text="Red"
+            android:textColor="#CC0D0D" />
 
         <SeekBar
             android:id="@+id/redSeekBar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:thumbTint="#CC0D0D" />
+
+        <TextView
+            android:id="@+id/greenText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:textColor="#1DDA17" />
+
+        <SeekBar
+            android:id="@+id/greenSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:thumbTint="#1DDA17" />
+
+        <TextView
+            android:id="@+id/blueText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:textColor="#0B8EF6" />
+
+        <SeekBar
+            android:id="@+id/blueSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:thumbTint="#0B8EF6" />
 
     </LinearLayout>
 </LinearLayout>
