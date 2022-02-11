@@ -13,7 +13,7 @@ import android.view.SurfaceView;
  * @Version Feb. 10, 2022
  *
  * An unfinished coloring assignment
- *
+ * I referenced the BirthdayCake file
  * */
 
 public class SecretView extends SurfaceView {
