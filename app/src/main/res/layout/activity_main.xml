@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -30,6 +32,11 @@
         android:orientation="vertical"
         android:layout_weight="1">
 
+        <com.example.customcoloringassignment.SecretView
+            android:id="@+id/butterflyDrawing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -48,6 +55,7 @@
             android:id="@+id/redSeekBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:max="255"
             android:progress="0"
             android:thumbTint="#CC0D0D" />
 
@@ -62,6 +70,7 @@
             android:id="@+id/greenSeekBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:max="255"
             android:progress="0"
             android:thumbTint="#1DDA17" />
 
@@ -76,6 +85,7 @@
             android:id="@+id/blueSeekBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:max="255"
             android:progress="0"
             android:thumbTint="#0B8EF6" />
 

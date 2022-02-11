@@ -4,6 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+/**
+ * @Author Kathryn Weidman
+ * @Version Feb. 10, 2022
+ *
+ * An unfinished custom color thing
+ * */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
